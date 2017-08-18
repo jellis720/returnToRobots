@@ -1,0 +1,107 @@
+body{
+  font-family: 'Roboto', sans-serif;
+  margin: 0 auto;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  background: red;
+  background: -webkit-linear-gradient(left, red , yellow);
+  background: -o-linear-gradient(right, red, yellow);
+  background: -moz-linear-gradient(right, red, yellow);
+  background: linear-gradient(to right, red , yellow);
+}
+
+header p{
+  font-size: 34px;
+  font-family: 'Quicksand', sans-serif;
+  color: white;
+  text-shadow: 2px 2px black;
+}
+
+button{
+  background-color: black;
+  height: 40px;
+  border-radius: 30px;
+  color: white;
+  border: none;
+}
+
+header a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  height: 40px;
+  border-radius: 30px;
+  color: white;
+  border: none;
+  padding-right: 23px;
+  margin-right: 25px;
+}
+
+.rows {
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.profiles {
+  border: 1px solid #cccccc;
+  margin: 10px;
+  height: 350px;
+  width: 20%;
+  box-shadow: 2px 2px 2px black;
+}
+
+.Users {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  max-height: 275px;
+  max-width: 250px;
+}
+
+.avatar {
+  border: 1px solid #cccccc;
+  border-radius: 440px;
+}
+
+.name {
+  font-size: 50px;
+  color: #737373;
+
+}
+
+h1 {
+  margin-left: 20px;
+}
+
+h2 {
+  font-size: 20px;
+  text-align: center;
+  color: #80bfff;
+}
+
+a {
+  text-decoration: none;
+}
+
+h3 {
+  font-size: 15px;
+  text-align: center;
+}
+
+h4 {
+  font-size: 15px;
+  text-align: center;
+}
+
+h5{
+  margin-left: 20px;
+}

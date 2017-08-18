@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>USER</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <p>Employee Profile</p>
+    <a href="/"><h5>Return Home</h5></a>
+  </header>
+
+  <div class="users">
+    {{#mainRoutes}}
+    <img class="avatar" src= {{avatar}}></a>
+      <div class="right">
+        <h1 class="name">{{name}}</h1>
+        <p><b>Education:</b> {{university}}</p>
+        <p><b>Skills:</b> {{skills}}</p>
+        <p>{{address.country}}|{{job}}</p>
+        <p>{{email}}|{{phone}}</p>
+      </div>
+
+    {{/mainRoutes}}
+  </div>
+
+
+
+</body>
+
+</html>
