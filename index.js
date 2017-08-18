@@ -20,4 +20,6 @@ data.connect(url, (err,connection)=>{
       console.log("app started");
 
     })
+
+
 });

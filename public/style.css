@@ -7,12 +7,12 @@ header{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0 auto;
+  margin: 0 auto 25px auto;
   background: red;
-  background: -webkit-linear-gradient(left, red , yellow);
-  background: -o-linear-gradient(right, red, yellow);
-  background: -moz-linear-gradient(right, red, yellow);
-  background: linear-gradient(to right, red , yellow);
+  background: -webkit-linear-gradient(left, red , black);
+  background: -o-linear-gradient(right, red, black);
+  background: -moz-linear-gradient(right, red, black);
+  background: linear-gradient(to right, red , black);
 }
 
 header p{
@@ -22,25 +22,17 @@ header p{
   text-shadow: 2px 2px black;
 }
 
-button{
-  background-color: black;
-  height: 40px;
-  border-radius: 30px;
-  color: white;
-  border: none;
-}
-
 header a{
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: black;
-  height: 40px;
-  border-radius: 30px;
+  height: 1px;
+  border-radius: 20px;
   color: white;
+  text-decoration: underline;
   border: none;
-  padding-right: 23px;
-  margin-right: 25px;
+  padding: 23px;
+  margin: 0 25px;
 }
 
 .rows {
@@ -62,6 +54,7 @@ header a{
 .Users {
   display: flex;
   flex-direction: column;
+  margin-top: 25px;
   margin: 10px;
   max-height: 275px;
   max-width: 250px;
